@@ -25,8 +25,9 @@
     return _game;
 }
 
+//abstract
 - (Deck *) creatDeck{
-    return [[PlayingCardDeck alloc] init];
+    return nil;
 }
 
 - (IBAction)touchCardButtontouchCardButtonUIButton:(UIButton *)sender {
